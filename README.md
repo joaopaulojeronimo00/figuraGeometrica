@@ -1,12 +1,12 @@
-### FiguraGeometrica
+# FiguraGeometrica
 
-## Projeto da disciplina de Programação Avançada
+### Projeto da disciplina de Programação Avançada
 
-## Integrantes do Grupo:
+### Integrantes do Grupo:
 João Paulo Jeronimo de Oliveira
 Maria Eduarda Fernandes Lago
 
-## Objetivos:
+### Objetivos:
 
 Implementou a classe FiguraGeometrica e tornou-a abstrata conforme solicitado
 
@@ -29,7 +29,7 @@ Documentou todas as classes desenvolvidas com doxygen+markdown (README.md).
 Hospedou o projeto no github.com ou em outro repositório. 
 Se sim, escreva o endereço abaixo do repositório:
 
-## Links importantes:
+### Links importantes:
 
 https://agostinhobritojr.github.io/curso/progav-dca1202/escultor.html
 https://www.doxygen.nl/download.html
