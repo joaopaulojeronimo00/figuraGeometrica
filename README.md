@@ -1,10 +1,13 @@
-FiguraGeometrica
-Projeto da disciplina de Programação Avançada
+###FiguraGeometrica
+
+##Projeto da disciplina de Programação Avançada
+
 Integrantes do Grupo:
 João Paulo Jeronimo de Oliveira
 Maria Eduarda Fernandes Lago
 
-Objetivos
+##Objetivos:
+
 Implementou a classe FiguraGeometrica e tornou-a abstrata conforme solicitado
 
 Criou as classes concretas prevista no projeto utilizando herança da classe FiguraGeometrica
