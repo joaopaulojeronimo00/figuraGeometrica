@@ -31,6 +31,9 @@ public:
   void cutSphere(int xcenter, int ycenter, int zcenter, int radius);  // FEITO
   void putEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz); // FEITO
   void cutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry, int rz); // FEITO
+  int getnx(void);
+	int getny(void);
+	int getnz(void);
   void writeOFF(const char *filename); // FEITO
 
 };
