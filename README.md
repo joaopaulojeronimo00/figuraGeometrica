@@ -27,7 +27,7 @@ Maria Eduarda Fernandes Lago
 
 - Documentou todas as classes desenvolvidas com doxygen+markdown (README.md).
 
--Hospedou o projeto no github.com ou em outro repositório. 
+- Hospedou o projeto no github.com ou em outro repositório. 
 
 
 ### Links importantes:
