@@ -2,4 +2,10 @@
 
 FiguraGeometrica::FiguraGeometrica()
 {
+    //constructor
+}
+
+FiguraGeometrica::~FiguraGeometrica()
+{
+    //destructor
 }

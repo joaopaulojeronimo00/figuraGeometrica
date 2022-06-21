@@ -9,26 +9,26 @@ Maria Eduarda Fernandes Lago
 
 ### Objetivos:
 
-Implementou a classe FiguraGeometrica e tornou-a abstrata conforme solicitado
+- Implementou a classe FiguraGeometrica e tornou-a abstrata conforme solicitado
 
-Criou as classes concretas prevista no projeto utilizando herança da classe FiguraGeometrica
+- Criou as classes concretas prevista no projeto utilizando herança da classe FiguraGeometrica
 
-Cada método draw(Sculptor&) implementado na classe derivada é capaz de permitir que a respectiva figura geométrica SE DESENHE no escultor fornecido como parâmetro.
+- Cada método draw(Sculptor&) implementado na classe derivada é capaz de permitir que a respectiva figura geométrica SE DESENHE no escultor fornecido como parâmetro.
 
-O projeto desenvolvido compila sem erros.
+- O projeto desenvolvido compila sem erros.
 
-O projeto desenvolvido executa sem erros.
+- O projeto desenvolvido executa sem erros.
 
-Criou um programa-exemplo para testar as TODAS as funcionalidades que foram implementadas.
+- Criou um programa-exemplo para testar as TODAS as funcionalidades que foram implementadas.
 
-Implementou corretamente os recursos de leitura dos arquivos de desenho para pelo menos 4 tipos diferentes de formas geométricas.
+- Implementou corretamente os recursos de leitura dos arquivos de desenho para pelo menos 4 tipos diferentes de formas geométricas.
 
-Criou uma figura de exemplo e testou-a com o programa desenvolvido e o arquivo OFF gerado corresponde ao previsto na figura.
+- Criou uma figura de exemplo e testou-a com o programa desenvolvido e o arquivo OFF gerado corresponde ao previsto na figura.
 
-Documentou todas as classes desenvolvidas com doxygen+markdown (README.md).
+- Documentou todas as classes desenvolvidas com doxygen+markdown (README.md).
 
-Hospedou o projeto no github.com ou em outro repositório. 
-Se sim, escreva o endereço abaixo do repositório:
+- Hospedou o projeto no github.com ou em outro repositório. 
+
 
 ### Links importantes:
 

@@ -11,6 +11,7 @@ protected:
 
 public:  
   FiguraGeometrica();
+  virtual ~FiguraGeometrica();
   //virtual é usado para poder ser usado o metodo do contrutor das classes derivadas
   //função virtual pura
   /*virtual void draw(){
