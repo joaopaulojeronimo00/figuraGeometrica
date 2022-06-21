@@ -1,37 +1,40 @@
-#include "PutEllipsoid.h"
+#include "../header/PutEllipsoid.h"
 
-PutEllipsoid::PutEllipsoid(int xc, int yc, int zc, int radius_x, int radius_y, int radius_z, int r, int g, int b, int a) {
-	this -> xcenter = xc; 
-    this -> radiusx = radius_x;
-	this -> ycenter = yc; 
-    this -> radiusy = radius_y;
-	this -> zcenter = zc; 
-    this -> radiusz = radius_z;
-	this -> r = r;
-	this -> g = g;
-	this -> b = b;
-	this -> a = a;
+PutEllipsoid::PutEllipsoid(int xcenter, int ycenter, int zcenter, int rx, int ry,
+                             int rz, float r, float g, float b, float a)
+{
+    this->xcenter = xcenter;
+    this->ycenter = ycenter;
+    this->zcenter = zcenter;
+    this->rx = rx;
+    this->ry = ry;
+    this->rz = rz;
+    this->r = r;
+    this->g = g;
+    this->b = b;
+    this->a = a;
+    // ctor
 }
 
 PutEllipsoid::~PutEllipsoid()
 {
-    //dtor
+    // dtor
 }
 
-void PutEllipsoid::draw(Sculptor& t) {
+void PutEllipsoid::draw(Sculptor &t)
+{
+    double x, y, z;
+    //CONFERIR SE USANDO RX, RY E RZ FUNCIONARÁ
+    //A IDEIA É VARRER O BOX EM QUE O ELIPSOID ESTÁ INCLUSO E COLOCAR APENAS OS VOXELS QUE ESTÃO DENTRO DO ELIPSOIDE
+    for (int i = 0; i < xcenter+rx ; i++)
+        for (int j = 0; j < ycenter+ry; j++)
+            for (int k = 0; k < zcenter+rz ; k++)
+            {
+                x = ((double)(i - xcenter) * (double)(i - xcenter)) / (rx * rx);
+                y = ((double)(j - ycenter) * (double)(j - ycenter)) / (ry * ry);
+                z = ((double)(k - zcenter) * (double)(k - zcenter)) / (rz * rz);
 
-	t.setColor(r, g, b, a);
-
-	double x, y, z;
-
-	for (int i = 0; i < t.getnx(); i++)
-		for (int j = 0; j < t.getny(); j++)
-			for (int k = 0; k < t.getnz(); k++) {
-				x = ((double)(i - xcenter) * (double)(i - xcenter)) / (radiusx * radiusx);
-				y = ((double)(j - ycenter) * (double)(j - ycenter)) / (radiusy * radiusy);
-				z = ((double)(k - zcenter) * (double)(k - zcenter)) / (radiusz * radiusz);
-
-				if ((x + y + z) < 1)
-					t.putVoxel(i, j, k);
-			}
+                if ((x + y + z) < 1)
+                    t.putVoxel(i, j, k);
+            }
 }
