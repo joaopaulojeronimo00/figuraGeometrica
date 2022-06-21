@@ -1,4 +1,4 @@
-#include "PutVoxel.h"
+#include "../header/PutVoxel.h"
 
 PutVoxel::PutVoxel(int x, int y, int z, float r, float g, float b, float a)
 {

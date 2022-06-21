@@ -7,6 +7,7 @@ CutEllipsoid::CutEllipsoid(int xc, int yc, int zc, int radius_x, int radius_y, i
     this -> radiusy = radius_y;
 	this -> zcenter = zc; 
     this -> radiusz = radius_z;
+	//ctor
 }
 
 CutEllipsoid::~CutEllipsoid()

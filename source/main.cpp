@@ -1,5 +1,5 @@
 #include <iostream>
-#include "FiguraGeometrica.h"
+#include "../header/FiguraGeometrica.h"
 
 #include <vector>
 
