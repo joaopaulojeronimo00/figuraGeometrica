@@ -2,8 +2,8 @@
 
 PutBox::PutBox(int x0, int x1, int y0, int y1, int z0, int z1, float r, float g, float b, float a)
 {
-    //this-> é p mesmo que (*this).x0. Pois this é o ponteiro que aponta para a posição onde o OBJ está.
-    //aqui o x0 passado como parâmetro é inserido no conteúdo de x0 do OBJ, que é uma das propriedades de PutBox
+    //this-> ï¿½ p mesmo que (*this).x0. Pois this ï¿½ o ponteiro que aponta para a posiï¿½ï¿½o onde o OBJ estï¿½.
+    //aqui o x0 passado como parï¿½metro ï¿½ inserido no conteï¿½do de x0 do OBJ, que ï¿½ uma das propriedades de PutBox
     this->x0=x0;
     this->x1=x1;
     this->y0=y0;
