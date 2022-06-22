@@ -17,7 +17,7 @@ public:
   /*virtual void draw(){
     std::cout << "draw figurageometrica\n";
   }*/
-  virtual void draw()=0; //função virtual pura, força a existencia desse mesmo metodo nas classes derivadas
+  virtual void draw(Sculptor &t)=0; //função virtual pura, força a existencia desse mesmo metodo nas classes derivadas
 
 };
 

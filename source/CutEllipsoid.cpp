@@ -1,6 +1,6 @@
 #include "../header/CutEllipsoid.h"
 
-CutEllipsoid::CutEllipsoid(int xc, int yc, int zc, int radius_x, int radius_y, int radius_z, int r, int g, int b, int a) {
+CutEllipsoid::CutEllipsoid(int xc, int yc, int zc, int radius_x, int radius_y, int radius_z) {
 	this -> xcenter = xc; 
     this -> radiusx = radius_x;
 	this -> ycenter = yc; 

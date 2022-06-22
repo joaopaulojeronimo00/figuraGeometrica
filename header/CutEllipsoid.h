@@ -6,10 +6,8 @@
 class CutEllipsoid : public FiguraGeometrica{
 protected:
 	int xcenter, ycenter, zcenter, radiusx, radiusy, radiusz;
-
-
 public:
-CutEllipsoid(int xc, int yc, int zc, int radius_x, int radius_y, int radius_z, int r, int g, int b, int a);
+CutEllipsoid(int xc, int yc, int zc, int radius_x, int radius_y, int radius_z);
 ~CutEllipsoid();
 	void draw(Sculptor& t);
 };

@@ -1,4 +1,5 @@
 #include "../header/FiguraGeometrica.h"
+#include <iostream>
 
 FiguraGeometrica::FiguraGeometrica()
 {
